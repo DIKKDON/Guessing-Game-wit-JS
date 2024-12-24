@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(32, 43, 40);
+}
+
+header {
+    display: inline-block;
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-left: 3rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: rgb(220, 135, 38);
+}
+
+header .display-screen {
+    margin-top: 3rem;
+    text-align: center;
+    font-family: inherit;
+    margin-left: 30rem;
+    background-color: red;
+    margin-right: 10rem;
+    max-height: 20rem;
+    height: 10rem;
+    width: 20rem;
+    padding-top: 3rem;
+    font-size: 2rem;
+
+}
+
+main {
+    display: flex;
+}
+
+.left {
+    padding-left: 10rem;
+}
+
+.left input {
+    height: 6rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: inherit;
+    color: rgb(44, 40, 40);
+    border-width: 0.5rem;
+}
+
+.right {
+    padding-left: 30rem;
+    font-family: inherit;
+    font-size: 2rem;
+    color: rgb(168, 241, 23);
+}
+
+
+
+.bnt {
+    width: 10rem;
+    height: 6vh;
+    margin: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.bnt:hover {
+    background-color: rgb(168, 241, 23);
+}
+
+.bottom {
+    text-align: center;
+    font-family: inherit;
+    font-size: 2rem;
+}
+
+.message {
+    width: 40rem;
+    background-color: greenyellow;
+    align-self: center;
+    margin-left: 25rem;
+}
